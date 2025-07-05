@@ -91,8 +91,8 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2    &kp F3          &kp F4     &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &mkp MB1  &kp UP_ARROW    &mkp MB2   &kp F10
+&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2    &kp F3          &kp F4     &kp BACKSPACE
+&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &mkp MB1  &kp UP_ARROW    &mkp MB2   &kp ENTER
 &trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp F11
 &trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                                       &kp F12
             >;
@@ -109,7 +109,7 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
+&kp LC(SPACE)   &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
 &kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
