@@ -103,7 +103,7 @@
 &kp N7        &kp N8        &kp NUMBER_9  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &mkp MB1           &kp HASH        &kp DOLLAR            &kp SLASH
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp MINUS
-&kp LC(N0)    &trans        &trans        &trans           &trans        &trans                       &trans          &trans                                                                     &kp PIPE
+&kp LC(N0)    &trans        &trans        &trans           &trans        &trans                       &kp LEFT_SHIFT  &trans                                                                     &kp PIPE
             >;
         };
 
