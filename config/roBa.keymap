@@ -109,7 +109,7 @@
 
         ARROW {
             bindings = <
-&kp LG(SPACE)   &kp LG(W)  &kp RG(E)       &kp RG(R)         &trans                                        &trans  &trans  &trans  &trans  &trans
+&kp LG(Q)       &kp LG(W)  &kp RG(E)       &kp RG(R)         &trans                                        &trans  &trans  &trans  &trans  &trans
 &kp LC(SPACE)   &kp RG(S)  &kp DOWN_ARROW  &kp LEFT_COMMAND  &kp TAB  &trans                    &trans     &trans  &trans  &trans  &trans  &trans
 &kp LEFT_SHIFT  &kp RG(X)  &kp RG(C)       &kp LG(V)         &trans   &kp LG(LS(NUMBER_4))      &trans     &trans  &trans  &trans  &trans  &trans
 &trans          &trans     &trans          &trans            &trans   &trans                    &kp SPACE  &trans                          &trans
