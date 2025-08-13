@@ -82,7 +82,7 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                  &kp Y           &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))      &kp MINUS              &kp H           &kp J  &kp K      &kp L    &kp LEFT_COMMAND
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON          &kp SEMICOLON          &kp N           &kp M  &kp COMMA  &kp DOT  &lt 3 ENTER
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON          &kp SEMICOLON          &kp N           &kp M  &kp COMMA  &kp DOT  &lt 5 ENTER
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt 3 SPACE        &lt 1 C_AL_SPELLCHECK  &kp LEFT_SHIFT                             &kp DEL
             >;
 
@@ -109,7 +109,7 @@
 
         ARROW {
             bindings = <
-&kp LS(SPACE)   &kp LG(W)  &kp RG(E)  &kp RG(R)         &trans                                        &trans  &trans  &kp TILDE  &trans  &trans
+&kp LC(SPACE)   &kp LG(W)  &kp RG(E)  &kp RG(R)         &trans                                        &trans  &trans  &kp TILDE  &trans  &trans
 &kp LC(Q)       &kp RG(S)  &kp RG(D)  &kp LEFT_COMMAND  &kp TAB  &trans                    &trans     &trans  &trans  &kp SEMI   &trans  &trans
 &kp LEFT_SHIFT  &kp RG(X)  &kp RG(C)  &kp LG(V)         &trans   &kp LG(LS(NUMBER_4))      &trans     &trans  &trans  &trans     &trans  &trans
 &trans          &trans     &trans     &trans            &trans   &trans                    &kp SPACE  &trans                             &trans
@@ -129,10 +129,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans          &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans          &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                  &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans        &trans              &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans        &kp RG(UP_ARROW)    &kp LEFT_SHIFT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp RG(LEFT)  &kp RG(DOWN_ARROW)  &kp LG(RIGHT)   &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                    &trans
             >;
         };
 
