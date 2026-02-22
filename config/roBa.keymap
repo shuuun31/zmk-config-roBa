@@ -100,10 +100,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                                     &kp PIPE
+&kp N7        &kp N8        &kp N9        &kp N0           &kp PLUS                                                   &kp CARET        &kp F2     &kp TILDE         &kp SQT            &kp NON_US_BACKSLASH
+&kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION  &mkp MB1   &kp SEMICOLON     &mkp MB2           &kp SLASH
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp BACKSLASH    &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS
+&trans        &trans        &trans        &kp F11          &trans        &trans                       &kp SPACE       &kp RIGHT_SHIFT                                                  &kp PIPE
             >;
         };
 
