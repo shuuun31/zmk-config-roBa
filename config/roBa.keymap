@@ -86,15 +86,15 @@
 &mo 6             &kp LEFT_WIN  &kp LEFT_ALT  &kp RIGHT_ALT  &mo 2  &mo 3              &mo 1          &lt 1 ENTER                             &kp RSHIFT
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
         };
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp B   &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp ESC         &kp LC(A)      &kp LC(E)  &kp LC(P)  &kp LC(T)                            &kp RC(N)  &kp RC(Y)  &kp RC(K)       &kp RC(LS(MINUS))  &kp BACKSPACE
+&kp TAB         &kp LC(S)      &kp LC(D)  &kp LC(F)  &kp LC(G)       &trans      &kp F13  &kp RC(M)  &mkp MB1   &kp UP_ARROW    &mkp MB2           &kp ENTER
+&kp LC(A)       &kp LC(LS(X))  &kp LC(C)  &kp LC(V)  &kp LA(LS(N5))  &trans      &trans   &trans     &kp LEFT   &kp DOWN_ARROW  &kp RIGHT          &kp RIGHT_SHIFT
+&kp LEFT_SHIFT  &kp LEFT_ALT   &trans     &trans     &kp LCTRL       &trans      &trans   &trans                                                   &kp RIGHT_SHIFT
             >;
         };
 
