@@ -59,7 +59,7 @@
         to_layer_0: to_layer_0 {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+            bindings = <&to 1 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
     };
@@ -78,15 +78,33 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        Default_mouse_num {
             bindings = <
-&kp Q  &kp W         &kp E         &kp R      &kp T                                      &kp Y            &kp U  &kp I      &kp O    &kp P
-&kp A  &kp S         &kp D         &kp F      &kp G  &kp PRINTSCREEN      &kp MINUS      &kp H            &kp J  &kp K      &kp L    &kp RCTRL
-&kp Z  &kp X         &kp C         &kp V      &kp B  &kp F11              &kp SEMICOLON  &kp N            &kp M  &kp COMMA  &kp DOT  &mo 5
-&to 0  &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &mo 2  &mo 3                &mo 1          &kp RIGHT_SHIFT                             &trans
+&kp N7        &kp N8        &kp N9        &kp N0           &kp PLUS                                         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE     &kp SQT    &kp BACKSLASH
+&kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_NUMBER_6  &kp ASTERISK  &trans              &kp BACKSPACE  &kp EQUAL         &mkp MB1           &kp UP_ARROW  &mkp MB2   &kp SLASH
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_NUMBER_3  &kp PERIOD    &kp LEFT_SHIFT      &kp ENTER      &kp MINUS         &kp LEFT_ARROW     &kp DOWN      &kp RIGHT  &mo 5
+&trans        &trans        &trans        &to 1            &trans        &trans              &kp SPACE      &kp RIGHT_SHIFT                                               &kp SEMICOLON
+            >;
+        };
+
+        win_layer {
+            bindings = <
+&kp Q   &kp W         &kp E         &kp R      &kp T                                      &kp Y            &kp U  &kp I      &kp O    &kp P
+&kp A   &kp S         &kp D         &kp F      &kp G  &kp PRINTSCREEN      &kp BACKSPACE  &kp H            &kp J  &kp K      &kp L    &kp RCTRL
+&kp Z   &kp X         &kp C         &kp V      &kp B  &kp LG(D)            &kp ENTER      &kp N            &kp M  &kp COMMA  &kp DOT  &mo 5
+&trans  &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &to 0  &mo 2                &kp RCTRL      &kp RIGHT_SHIFT                             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
+        };
+
+        Arrow_for_win {
+            bindings = <
+&kp LC(SPACE)   &kp LC(W)  &kp LC(TAB)  &kp LEFT_ALT  &kp TAB                               &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2        &bt BT_SEL 3   &bt BT_SEL 4
+&kp F4          &trans     &trans       &kp LEFT_ALT  &kp TAB    &trans      &trans         &trans        &trans        &kp LA(UP_ARROW)    &trans         &trans
+&kp LEFT_SHIFT  &trans     &trans       &trans        &trans     &trans      &kp RA(ENTER)  &trans        &kp LA(LEFT)  &kp RA(DOWN_ARROW)  &kp RA(RIGHT)  &trans
+&trans          &trans     &trans       &trans        &kp LG(D)  &trans      &kp SPACE      &kp SPACE                                                      &bt BT_CLR_ALL
+            >;
         };
 
         FUNCTION {
@@ -95,24 +113,6 @@
 &kp TAB         &kp LC(S)      &kp LC(D)  &kp LC(F)  &kp LC(G)       &trans         &kp F13  &kp RC(M)  &mkp MB1   &kp UP_ARROW    &mkp MB2           &kp ENTER
 &kp LC(A)       &kp LC(LS(X))  &kp LC(C)  &kp LC(V)  &kp LA(LS(N5))  &trans         &trans   &trans     &kp LEFT   &kp DOWN_ARROW  &kp RIGHT          &kp RIGHT_SHIFT
 &kp LEFT_SHIFT  &kp LEFT_ALT   &trans     &kp LCTRL  &kp LCTRL       &kp RCTRL      &trans   &trans                                                   &kp RIGHT_SHIFT
-            >;
-        };
-
-        NUM {
-            bindings = <
-&kp N7        &kp N8        &kp N9        &kp N0           &kp PLUS                                     &kp CARET        &kp F2     &kp TILDE         &kp SQT            &kp BACKSLASH
-&kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_NUMBER_6  &kp ASTERISK  &trans         &kp UNDERSCORE  &kp EXCLAMATION  &mkp MB1   &kp SEMICOLON     &mkp MB2           &kp SLASH
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL      &trans          &kp BACKSLASH    &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS
-&trans        &trans        &trans        &kp LG(D)        &trans        &trans         &kp SPACE       &kp RIGHT_SHIFT                                                  &kp PIPE
-            >;
-        };
-
-        Arrow_for_win {
-            bindings = <
-&kp LC(SPACE)   &kp LC(W)  &kp LC(TAB)  &kp LEFT_ALT  &kp TAB                             &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2        &bt BT_SEL 3   &bt BT_SEL 4
-&kp F4          &trans     &trans       &kp LEFT_ALT  &kp TAB    &trans      &trans       &trans        &trans        &kp LA(UP_ARROW)    &trans         &trans
-&kp LEFT_SHIFT  &trans     &trans       &trans        &trans     &trans      &bootloader  &trans        &kp LA(LEFT)  &kp RA(DOWN_ARROW)  &kp RA(RIGHT)  &trans
-&trans          &trans     &trans       &trans        &kp LG(D)  &trans      &kp SPACE    &kp SPACE                                                      &bt BT_CLR_ALL
             >;
         };
 
