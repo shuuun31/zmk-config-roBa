@@ -103,7 +103,7 @@
 &kp N7        &kp N8        &kp N9        &kp N0           &kp PLUS                                     &kp CARET        &kp F2     &kp TILDE         &kp SQT            &kp BACKSLASH
 &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_NUMBER_6  &kp ASTERISK  &trans         &kp UNDERSCORE  &kp EXCLAMATION  &mkp MB1   &kp SEMICOLON     &mkp MB2           &kp SLASH
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL      &trans          &kp BACKSLASH    &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS
-&trans        &trans        &trans        &kp D            &trans        &trans         &kp SPACE       &kp RIGHT_SHIFT                                                  &kp PIPE
+&trans        &trans        &trans        &kp LG(D)        &trans        &trans         &kp SPACE       &kp RIGHT_SHIFT                                                  &kp PIPE
             >;
         };
 
