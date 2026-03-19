@@ -80,10 +80,10 @@
 
         Home_layer {
             bindings = <
-&trans  &trans  &trans  &trans     &trans                                 &trans  &trans    &trans  &trans    &trans
-&trans  &trans  &trans  &trans     &trans     &trans              &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
-&trans  &trans  &trans  &trans     &trans     &to 2               &to 1   &trans  &trans    &trans  &trans    &mo 5
-&trans  &trans  &trans  &kp SPACE  &kp LCTRL  &kp LEFT_SHIFT      &trans  &trans                              &trans
+&trans  &trans  &trans  &trans        &trans                                 &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans        &trans     &trans              &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
+&trans  &trans  &trans  &trans        &trans     &to 2               &to 1   &trans  &trans    &trans  &trans    &mo 5
+&trans  &trans  &trans  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT      &trans  &trans                              &trans
             >;
         };
 
@@ -127,28 +127,28 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3     &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans        &trans        &kp RIGHT_SHIFT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans        &trans        &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                     &trans
+&trans  &trans  &trans  &trans  &trans                             &bt BT_SEL 0       &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans         &trans             &trans          &kp UP_ARROW    &kp RIGHT_SHIFT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans         &trans             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT        &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp RIGHT_ALT  &kp RIGHT_COMMAND                                                   &trans
             >;
         };
 
         Arrow_for_win {
             bindings = <
-&kp LC(SPACE)  &trans     &trans     &trans  &trans                      &trans        &trans  &trans  &trans  &trans
-&trans         &trans     &trans     &trans  &trans  &trans      &trans  &trans        &trans  &trans  &trans  &trans
-&trans         &trans     &trans     &trans  &trans  &trans      &trans  &trans        &trans  &trans  &trans  &trans
-&kp LC(F4)     &kp LC(W)  &kp LG(D)  &trans  &trans  &trans      &mo 3   &kp LEFT_ALT                          &kp TAB
+&kp LC(SPACE)  &kp LC(W)  &kp LC(TAB)  &trans        &trans                         &trans  &trans  &trans  &trans  &trans
+&kp F4         &trans     &trans       &kp LEFT_ALT  &kp TAB    &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &trans     &trans       &trans        &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &trans     &trans       &trans        &kp LG(D)  &trans      &mo 3   &trans                          &trans
             >;
         };
 
         ARROW_for_mac {
             bindings = <
-&kp LC(SPACE)  &trans     &trans   &trans  &trans                         &trans             &trans  &trans  &trans  &trans
-&trans         &trans     &trans   &trans  &trans  &trans      &trans     &trans             &trans  &trans  &trans  &trans
-&trans         &trans     &trans   &trans  &trans  &trans      &trans     &trans             &trans  &trans  &trans  &kp AT_SIGN
-&kp Q          &kp LG(W)  &kp F11  &trans  &trans  &trans      &kp RCTRL  &kp RIGHT_COMMAND                          &kp TAB
+&kp LC(SPACE)  &kp LG(W)  &kp LC(TAB)  &kp LEFT_COMMAND  &kp AT_SIGN                         &trans  &trans  &trans  &trans  &trans
+&kp Q          &trans     &trans       &kp LEFT_COMMAND  &kp TAB      &trans      &trans     &trans  &trans  &trans  &trans  &trans
+&trans         &trans     &trans       &trans            &trans       &trans      &trans     &trans  &trans  &trans  &trans  &trans
+&trans         &trans     &trans       &trans            &kp F11      &trans      &kp SPACE  &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
