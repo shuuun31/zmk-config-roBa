@@ -112,7 +112,7 @@
 &kp ESC    &kp LC(A)      &kp LC(E)  &kp LC(P)  &kp LC(T)                              &kp RC(N)  &kp RC(Y)  &kp RC(K)       &kp RC(LS(MINUS))  &kp BACKSPACE
 &kp TAB    &kp LC(S)      &kp LC(D)  &kp LC(F)  &kp LC(G)       &trans         &trans  &kp RC(M)  &mkp MB1   &kp UP_ARROW    &mkp MB2           &kp ENTER
 &kp LC(A)  &kp LC(LS(X))  &kp LC(C)  &kp LC(V)  &kp LA(LS(N5))  &trans         &trans  &trans     &kp LEFT   &kp DOWN_ARROW  &kp RIGHT          &kp RIGHT_ALT
-&trans     &trans         &trans     &kp SPACE  &kp LCTRL       &kp RCTRL      &trans  &trans                                                   &kp LEFT_COMMAND
+&trans     &trans         &trans     &trans     &kp LCTRL       &kp RCTRL      &trans  &trans                                                   &kp LEFT_COMMAND
             >;
         };
 
@@ -156,10 +156,10 @@
 
         Default_mouse_num {
             bindings = <
-&kp N7        &kp N8        &kp N9        &kp N0     &kp PLUS                                  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE         &kp SQT            &kp BACKSLASH
-&kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans     &kp ASTERISK  &trans              &trans  &kp EQUAL         &mkp MB1           &kp SEMICOLON     &mkp MB2           &kp SLASH
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &kp PERIOD    &kp LEFT_SHIFT      &trans  &kp MINUS         &kp EQUAL          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS
-&trans        &trans        &trans        &kp SPACE  &trans        &trans              &trans  &kp RIGHT_SHIFT                                                           &kp SEMICOLON
+&kp N7        &kp N8        &kp N9        &kp N0  &kp PLUS                                  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE         &kp SQT            &kp BACKSLASH
+&kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &kp ASTERISK  &trans              &trans  &kp EQUAL         &mkp MB1           &kp SEMICOLON     &mkp MB2           &kp SLASH
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &kp PERIOD    &kp LEFT_SHIFT      &trans  &kp MINUS         &kp EQUAL          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS
+&trans        &trans        &trans        &trans  &trans        &trans              &trans  &kp RIGHT_SHIFT                                                           &kp SEMICOLON
             >;
         };
     };
