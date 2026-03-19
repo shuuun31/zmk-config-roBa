@@ -136,10 +136,10 @@
 
         Arrow_for_win {
             bindings = <
-&kp LC(SPACE)  &kp LC(W)  &kp LC(TAB)  &trans        &trans                         &trans  &trans  &trans  &trans  &trans
-&kp F4         &trans     &trans       &kp LEFT_ALT  &kp TAB    &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans         &trans     &trans       &trans        &trans     &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans         &trans     &trans       &trans        &kp LG(D)  &trans      &mo 3   &trans                          &trans
+&kp LC(SPACE)  &kp LC(W)  &kp LC(TAB)  &trans        &trans                            &trans  &trans  &trans  &trans  &trans
+&kp F4         &trans     &trans       &kp LEFT_ALT  &kp TAB    &trans      &trans     &trans  &trans  &trans  &trans  &trans
+&trans         &trans     &trans       &trans        &trans     &trans      &trans     &trans  &trans  &trans  &trans  &trans
+&trans         &trans     &trans       &trans        &kp LG(D)  &trans      &kp SPACE  &trans                          &trans
             >;
         };
 
