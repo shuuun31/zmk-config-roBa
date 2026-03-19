@@ -120,7 +120,7 @@
 &kp LC(SPACE)  &trans     &trans     &trans  &trans                      &trans        &trans  &trans  &trans  &trans
 &trans         &trans     &trans     &trans  &trans  &trans      &trans  &trans        &trans  &trans  &trans  &trans
 &trans         &trans     &trans     &trans  &trans  &trans      &trans  &trans        &trans  &trans  &trans  &trans
-&kp F11        &kp LC(W)  &kp LG(D)  &trans  &trans  &trans      &trans  &kp LEFT_ALT                          &kp TAB
+&kp LC(F4)     &kp LC(W)  &kp LG(D)  &trans  &trans  &trans      &trans  &kp LEFT_ALT                          &kp TAB
             >;
         };
 
