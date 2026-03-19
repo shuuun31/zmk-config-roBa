@@ -82,8 +82,8 @@
             bindings = <
 &trans  &trans  &trans  &trans     &trans                                 &trans  &trans    &trans  &trans    &trans
 &trans  &trans  &trans  &trans     &trans     &trans              &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
-&trans  &trans  &trans  &trans     &trans     &trans              &to 1   &trans  &trans    &trans  &trans    &mo 5
-&trans  &trans  &trans  &kp SPACE  &kp LCTRL  &kp LEFT_SHIFT      &trans  &trans                              &kp RIGHT_SHIFT
+&trans  &trans  &trans  &trans     &trans     &to 6               &to 1   &trans  &trans    &trans  &trans    &mo 5
+&trans  &trans  &trans  &kp SPACE  &kp LCTRL  &kp LEFT_SHIFT      &trans  &trans                              &trans
             >;
         };
 
