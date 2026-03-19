@@ -1,5 +1,4 @@
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
@@ -118,10 +117,10 @@
 
         Arrow_for_win {
             bindings = <
-&kp LC(SPACE)   &kp LC(W)  &kp LC(TAB)  &kp LEFT_ALT  &kp TAB                      &trans     &trans  &trans  &trans  &trans
-&kp F4          &trans     &trans       &kp LEFT_ALT  &kp TAB  &trans      &trans  &trans     &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &trans     &trans       &trans        &trans   &trans      &trans  &trans     &trans  &trans  &trans  &trans
-&trans          &trans     &trans       &trans        &trans   &trans      &trans  &kp SPACE                          &trans
+&kp LC(SPACE)   &kp W   &kp LCTRL  &kp LEFT_ALT  &kp TAB                      &trans     &trans  &trans  &trans  &trans
+&kp F4          &trans  &trans     &kp LEFT_ALT  &kp TAB  &trans      &trans  &trans     &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &trans  &trans     &trans        &trans   &trans      &trans  &trans     &trans  &trans  &trans  &trans
+&trans          &trans  &trans     &trans        &trans   &trans      &trans  &kp SPACE                          &trans
             >;
         };
 
@@ -145,10 +144,10 @@
 
         ARROW_for_mac {
             bindings = <
-&kp LC(SPACE)   &kp LG(W)               &kp LC(TAB)  &kp LEFT_COMMAND  &kp AT_SIGN                      &bt BT_SEL 0     &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_SEL 3   &bt BT_SEL 4
-&kp Q           &trans                  &trans       &kp LEFT_COMMAND  &kp TAB      &trans      &trans  &trans           &trans              &kp LG(UP_ARROW)    &trans         &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans       &trans            &trans       &trans      &trans  &trans           &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp RG(RIGHT)  &trans
-&trans          &trans                  &trans       &trans            &kp F11      &trans      &trans  &kp RIGHT_SHIFT                                                         &bt BT_CLR_ALL
+&kp LC(SPACE)   &kp LG(W)               &kp RCTRL  &kp LEFT_COMMAND  &kp TAB                      &trans           &trans  &trans  &trans  &trans
+&kp Q           &trans                  &trans     &kp LEFT_COMMAND  &kp AT   &trans      &trans  &trans           &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans     &trans            &trans   &trans      &trans  &trans           &trans  &trans  &trans  &trans
+&trans          &trans                  &trans     &trans            &kp F11  &trans      &trans  &kp RIGHT_SHIFT                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
