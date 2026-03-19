@@ -83,7 +83,7 @@
 &trans  &trans  &trans  &trans     &trans                                 &trans  &trans    &trans  &trans    &trans
 &trans  &trans  &trans  &trans     &trans     &trans              &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
 &trans  &trans  &trans  &trans     &trans     &trans              &to 1   &trans  &trans    &trans  &trans    &mo 5
-&trans  &trans  &trans  &kp SPACE  &kp LCTRL  &kp LEFT_SHIFT      &trans  &trans                              &trans
+&trans  &trans  &trans  &kp SPACE  &kp LCTRL  &kp LEFT_SHIFT      &trans  &trans                              &kp RIGHT_SHIFT
             >;
         };
 
@@ -102,7 +102,7 @@
             bindings = <
 &kp ESC    &kp LC(A)      &kp LC(E)  &kp LC(P)  &kp LC(T)                               &kp RC(N)  &kp RC(Y)  &kp RC(K)       &kp RC(LS(MINUS))  &kp BACKSPACE
 &kp TAB    &kp LC(S)      &kp LC(D)  &kp LC(F)  &kp LC(G)       &trans         &kp F13  &kp RC(M)  &mkp MB1   &kp UP_ARROW    &mkp MB2           &kp ENTER
-&kp LC(A)  &kp LC(LS(X))  &kp LC(C)  &kp LC(V)  &kp LA(LS(N5))  &trans         &trans   &trans     &kp LEFT   &kp DOWN_ARROW  &kp RIGHT          &kp RIGHT_SHIFT
+&kp LC(A)  &kp LC(LS(X))  &kp LC(C)  &kp LC(V)  &kp LA(LS(N5))  &trans         &trans   &trans     &kp LEFT   &kp DOWN_ARROW  &kp RIGHT          &kp RIGHT_ALT
 &trans     &trans         &trans     &kp SPACE  &kp LCTRL       &kp RCTRL      &trans   &trans                                                   &kp RIGHT_SHIFT
             >;
         };
@@ -118,10 +118,10 @@
 
         Arrow_for_win {
             bindings = <
-&kp LC(SPACE)   &kp LC(W)  &kp LC(TAB)  &kp LEFT_ALT  &kp TAB                               &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2        &bt BT_SEL 3   &bt BT_SEL 4
-&kp F4          &trans     &trans       &kp LEFT_ALT  &kp TAB    &trans      &trans         &trans        &trans        &kp LA(UP_ARROW)    &trans         &trans
-&kp LEFT_SHIFT  &trans     &trans       &trans        &trans     &trans      &kp RA(ENTER)  &trans        &kp LA(LEFT)  &kp RA(DOWN_ARROW)  &kp RA(RIGHT)  &trans
-&trans          &trans     &trans       &trans        &kp LG(D)  &trans      &kp SPACE      &kp SPACE                                                      &bt BT_CLR_ALL
+&kp LC(SPACE)   &kp LC(W)  &kp LC(TAB)  &kp LEFT_ALT  &kp TAB                      &trans     &trans  &trans  &trans  &trans
+&kp F4          &trans     &trans       &kp LEFT_ALT  &kp TAB  &trans      &trans  &trans     &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &trans     &trans       &trans        &trans   &trans      &trans  &trans     &trans  &trans  &trans  &trans
+&trans          &trans     &trans       &trans        &trans   &trans      &trans  &kp SPACE                          &trans
             >;
         };
 
