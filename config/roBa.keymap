@@ -136,10 +136,10 @@
 
         ARROW_for_mac {
             bindings = <
-&kp LC(SPACE)  &kp LG(W)  &kp LC(TAB)  &kp LEFT_COMMAND  &kp AT_SIGN                          &trans  &trans  &trans  &trans  &trans
-&kp Q          &trans     &trans       &kp LEFT_COMMAND  &kp TAB       &trans      &trans     &trans  &trans  &trans  &trans  &trans
-&trans         &trans     &trans       &kp RG(MINUS)     &kp LG(PLUS)  &trans      &trans     &trans  &trans  &trans  &trans  &trans
-&trans         &trans     &trans       &trans            &kp F11       &trans      &kp SPACE  &trans                          &trans
+&kp LC(SPACE)  &kp LG(W)  &kp LC(TAB)  &kp LEFT_COMMAND  &kp AT_SIGN                          &trans           &trans  &trans  &trans  &trans
+&kp Q          &trans     &trans       &kp LEFT_COMMAND  &kp TAB       &trans      &trans     &trans           &trans  &trans  &trans  &trans
+&trans         &trans     &trans       &kp RG(MINUS)     &kp LG(PLUS)  &trans      &trans     &trans           &trans  &trans  &trans  &trans
+&trans         &trans     &trans       &trans            &kp F11       &trans      &kp SPACE  &kp RIGHT_SHIFT                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
