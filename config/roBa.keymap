@@ -100,10 +100,10 @@
 
         FUNCTION {
             bindings = <
-&kp ESC    &kp LC(A)      &kp LC(E)  &kp LC(P)  &kp LC(T)                                     &kp RC(N)  &kp RC(Y)  &kp RC(K)       &kp RC(LS(MINUS))  &kp BACKSPACE
-&kp TAB    &kp LC(S)      &kp LC(D)  &kp LC(F)  &kp LC(G)       &trans         &kp RA(ENTER)  &kp RC(M)  &mkp MB1   &kp UP_ARROW    &mkp MB2           &kp ENTER
-&kp LC(A)  &kp LC(LS(X))  &kp LC(C)  &kp LC(V)  &kp LA(LS(N5))  &trans         &trans         &trans     &kp LEFT   &kp DOWN_ARROW  &kp RIGHT          &kp RIGHT_SHIFT
-&trans     &trans         &trans     &trans     &kp LCTRL       &kp RCTRL      &trans         &trans                                                   &kp RIGHT_SHIFT
+&kp ESC    &kp LC(A)      &kp LC(E)     &kp LC(P)  &kp LC(T)                                     &kp RC(N)  &kp RC(Y)  &kp RC(K)       &kp RC(LS(MINUS))  &kp BACKSPACE
+&kp TAB    &kp LC(S)      &kp LC(D)     &kp LC(F)  &kp LC(G)       &trans         &kp RA(ENTER)  &kp RC(M)  &mkp MB1   &kp UP_ARROW    &mkp MB2           &kp ENTER
+&kp LC(A)  &kp LC(LS(X))  &kp LC(C)     &kp LC(V)  &kp LA(LS(N5))  &trans         &trans         &trans     &kp LEFT   &kp DOWN_ARROW  &kp RIGHT          &kp RIGHT_SHIFT
+&trans     &trans         &kp LEFT_ALT  &trans     &kp LCTRL       &kp RCTRL      &trans         &trans                                                   &kp RIGHT_SHIFT
             >;
         };
 
